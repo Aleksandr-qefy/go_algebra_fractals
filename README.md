@@ -16,6 +16,12 @@ is printed in terminal.
 To draw resulting calculations I use my
 [clrplot module](https://github.com/Aleksandr-qefy/clrplot).
 
+
+## Examples
+
+You can see resulting images in [`/images` dir](https://github.com/Aleksandr-qefy/go_algebra_fractals/tree/main/images).
+
+
 ## How to run
 
 ```
@@ -40,8 +46,3 @@ DrawFractal(
     },
 )
 ```
-
-
-## Examples
-
-You can see resulting images in [`/images` dir](https://github.com/Aleksandr-qefy/go_algebra_fractals/tree/main/images).
