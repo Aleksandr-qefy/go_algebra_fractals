@@ -1,10 +1,10 @@
 package usertypes
 
-import "clrplot/clrplot"
+import cpt "github.com/Aleksandr-qefy/clrplot"
 
 type Config struct {
 	MaxIter    int
-	ColorMap   clrplot.ColorMap
+	ColorMap   cpt.ColorMap
 	GoroutineN int
 	ImgHeight  int
 	ImgWidth   int

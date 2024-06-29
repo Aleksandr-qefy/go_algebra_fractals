@@ -1,7 +1,7 @@
 package usertypes
 
 import (
-	cpt "clrplot/clrplot"
+	cpt "github.com/Aleksandr-qefy/clrplot"
 	"math"
 )
 

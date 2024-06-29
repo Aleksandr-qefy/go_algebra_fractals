@@ -1,9 +1,9 @@
 package main
 
 import (
-	cpt "clrplot/clrplot"
-	ut "clrplot/usertypes"
 	"fmt"
+	ut "fractals/usertypes"
+	cpt "github.com/Aleksandr-qefy/clrplot"
 	"math/cmplx"
 	"runtime"
 	"sync"
