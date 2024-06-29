@@ -6,23 +6,23 @@ import (
 )
 
 type Fractal struct {
-	maxX, minX float64
-	minY, maxY float64
-	function   func(complex128, complex128) complex128
+	MaxX, MinX float64
+	MinY, MaxY float64
+	Function   func(complex128, complex128) complex128
 }
 
 var Mandelbrot = Fractal{
-	minX: -3, maxX: 2,
-	minY: -1.5, maxY: 1.5,
-	function: func(z, c complex128) complex128 {
+	MinX: -3, MaxX: 2,
+	MinY: -1.5, MaxY: 1.5,
+	Function: func(z, c complex128) complex128 {
 		return cmplx.Pow(z, 2) + c
 	},
 }
 
 var BurningShip = Fractal{
-	minX: -3, maxX: 2,
-	minY: -2, maxY: 1,
-	function: func(z, c complex128) complex128 {
+	MinX: -3, MaxX: 2,
+	MinY: -2, MaxY: 1,
+	Function: func(z, c complex128) complex128 {
 		return cmplx.Pow(complex(math.Abs(real(z)), math.Abs(imag(z))), 2) + c
 	},
 }
