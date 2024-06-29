@@ -1,0 +1,14 @@
+https://golangbyexample.com/modules-golang/
+
+$ go mod init clrplot
+$ go mod init usertype
+
+https://matplotlib.org/stable/users/explain/colors/colormaps.html
+https://pkg.go.dev/image/png
+
+Как сделать модуль
+https://habr.com/ru/articles/421411/
+
+$ go mod init fractals
+$ go get github.com/Aleksandr-qefy/clrplot
+$ go build
